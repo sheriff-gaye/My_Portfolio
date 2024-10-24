@@ -11,7 +11,7 @@ const Portfolio = () => {
 
   const displayData = isNotProject
     ? portfolio_data.slice(0, 6)
-    : portfolio_data;
+    : portfolio_data.slice(7,);
   return (
     <section id="portfolio">
          

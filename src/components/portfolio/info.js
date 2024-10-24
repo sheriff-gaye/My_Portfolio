@@ -1,4 +1,43 @@
 export const portfolio_data = [
+
+    {
+        "id": 16,
+        "image": require("../../assets/draff.jpeg"),
+        "title": "Draff",
+        "stack": "Next Js, Clerk , PostgreSQL",
+        "desc": "Collaborate , manage projects and reach new productivity peaks from high rise to the home office , the way your team works is unique - accomplsh it all with Draff",
+        "demo_url": "https://trello-git-sheriff-sheriff-gayes-projects.vercel.app/",
+    },
+
+    {
+        "id": 6,
+        "image": require("../../assets/natures2.jpeg"),
+        "title": "Natures Yoghurt",
+        "stack": "Laravel , Livewire , SQL",
+        "desc": "Natures Yoghurt is a yoghurt company with an eloquent UI and e-commerce functionality built with Laravel and Javascript.",
+        "demo_url": "https://naturesyoghurt.com",
+
+    }
+    ,
+    {
+        "id": 12,
+        "image": require("../../assets/airbnb.jpeg"),
+        "title": "Home Harmony",
+        "stack": "Next JS , MongoDB , Prisma ",
+        "desc": "Home Harmony your Airbnb alternative (clone) for listing homes, apartments, islands, and villas. Book with ease for a convenient and personalized experience in comfortable accommodations.",
+        "demo_url": "https://homeharmoney.vercel.app/",
+
+    },
+
+    {
+        "id": 13,
+        "image": require("../../assets/shop.jpeg"),
+        "title": "Shop Sphere",
+        "stack": "Next JS , Prisma , Shadcn, Tailwind",
+        "desc": " Multistore ecommerce platform with an intuitive admin panel for easy store customization. Seamless card payment options enhance customer convenience. Ideal for showcasing diverse storefronts.",
+        "demo_url": "https://shopsphere-six.vercel.app",
+
+    },
     {
         "id": 1,
         "image": require("../../assets/lms.png"),
@@ -28,15 +67,6 @@ export const portfolio_data = [
     },
 
 
-    {
-        "id": 6,
-        "image": require("../../assets/natures2.jpeg"),
-        "title": "Natures Yoghurt",
-        "stack": "Laravel , Livewire , SQL",
-        "desc": "Natures Yoghurt is a yoghurt company with an eloquent UI and e-commerce functionality built with Laravel and Javascript.",
-        "demo_url": "https://naturesyoghurt.com",
-
-    },
 
     {
         "id": 9,
@@ -56,33 +86,9 @@ export const portfolio_data = [
         "demo_url": "https://carapp-silk.vercel.app/",
     },
 
-    {
-        "id": 12,
-        "image": require("../../assets/airbnb.jpeg"),
-        "title": "Home Harmony",
-        "stack": "Next JS , MongoDB , Prisma ",
-        "desc": "Home Harmony your Airbnb alternative (clone) for listing homes, apartments, islands, and villas. Book with ease for a convenient and personalized experience in comfortable accommodations.",
-        "demo_url": "https://homeharmoney.vercel.app/",
 
-    },
-    {
-        "id": 13,
-        "image": require("../../assets/shop.jpeg"),
-        "title": "Shop Sphere",
-        "stack": "Next JS , Prisma , Shadcn, Tailwind",
-        "desc": " Multistore ecommerce platform with an intuitive admin panel for easy store customization. Seamless card payment options enhance customer convenience. Ideal for showcasing diverse storefronts.",
-        "demo_url": "https://shopsphere-six.vercel.app",
 
-    },
-    {
-        "id": 14,
-        "image": require("../../assets/taskify.png"),
-        "title": "Taskify",
-        "stack": "Next JS , Prisma , Shadcn , Tailwind, Postgres",
-        "desc": "Taskify, designed for effortless task and project management, streamlines end-user workflows, offering a user-friendly solution to enhance productivity and simplify work processes.Its can be use my both individual and team",
-        "demo_url": "https://trello-clone-five-zeta.vercel.app/",
 
-    },
     {
         "id": 14,
         "image": require("../../assets/great_minds.jpeg"),
@@ -118,7 +124,9 @@ export const portfolio_data = [
         "stack": "HTML , CSS , JavaScript",
         "desc": "A highly organized, user-friendly note-taking web app built with React. Users can create, edit, and delete notes, all while utilizing the browser's local storage as its database for seamless data management",
         "demo_url": "https://sheriff-gaye.github.io/javascript_projects/Github-profile/index.html",
-    }
+    },
+
+
 
 
 

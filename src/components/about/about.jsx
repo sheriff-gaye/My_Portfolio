@@ -10,7 +10,9 @@ const About = () => {
   return (
     <section id="about">
       <h5>Get To Know</h5>
-      <h2>About <span className="brand">&#123;Me&#125;</span></h2>
+      <h2>
+        About <span className="brand">&#123;Me&#125;</span>
+      </h2>
 
       <div className="container about_container">
         <div className="about_me">
@@ -40,15 +42,16 @@ const About = () => {
           </div>
 
           <p>
-            I'm an enthusiastic developer who thrives on collaboration, eagerly
-            sharing ideas. Specializing in crafting dynamic applications, I empower
-            small and medium businesses to enhance visibility and connectivity,
-            effectively communicating their brand's expertise.
+            I'm a passionate developer who thrives on solving real world
+            problems through creative and efficient solutions. I enjoy
+            collaborating with diverse teams, constantly learning, and staying
+            updated on the latest technologies. My goal is to build user focused
+            applications that make a meaningful impact.
           </p>
 
           <a href="#contact" class="btn btn-primary">
             Let's Talk
-            <Send/>
+            <Send />
           </a>
         </div>
       </div>

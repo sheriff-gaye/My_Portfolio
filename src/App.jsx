@@ -7,7 +7,7 @@ import Projects from "./components/projects/projects";
 import Home from "./Home";
 import Blog from "./components/blog/blog";
 import BlogDetails from "./components/blog/blog-details";
-import LeetCode from "./leetcode/leetcode";
+import LeetCode from "./components/leetcode/leetcode";
 
 const App = () => {
   return (
