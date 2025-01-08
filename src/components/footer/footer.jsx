@@ -1,10 +1,10 @@
-import React from "react";
-import "./footer.css";
+
 import { FiInstagram } from "react-icons/fi";
 import { BsTwitterX, BsYoutube } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
-import { SiBuymeacoffee } from "react-icons/si";
+import "./footer.css";
+
 
 const Footer = () => {
   const new_year = new Date();
@@ -64,8 +64,10 @@ const Footer = () => {
         <a href="https://www.youtube.com/@cleancode_hub">
           <BsYoutube />
         </a>
-        <a href="https://buymeacoffee.com/sgaye">
-        <SiBuymeacoffee/>
+      
+
+        <a href="https://www.buymeacoffee.com/sgaye" target="_blank" rel="noreferrer">
+        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{height: "40px", width: "130px"}} />
         </a>
 
        

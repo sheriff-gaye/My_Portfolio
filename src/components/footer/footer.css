@@ -31,12 +31,13 @@ footer a{
     justify-content: center;
     gap: 1rem;
     margin-bottom: 4rem;
+    place-items:center;
 }
 
 .footer_social a{
     background: var(--color-bg);
     color: var(--color-white);
-    padding: 0.8rem;
+    padding: 1rem;
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
@@ -66,3 +67,4 @@ footer a{
 
 
 }
+

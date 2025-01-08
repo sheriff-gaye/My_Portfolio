@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--color-bg-variant);
+    background: var(--color-primary);
     padding: 0;
     
 }
@@ -13,12 +13,10 @@
     font-size: 3rem;
     color: var(--color-white);
     text-align: center;
-   
-
 }
 
 .banner span{
-    color: var(--color-primary);
+    color: var(--color-bg);
 }
 
 

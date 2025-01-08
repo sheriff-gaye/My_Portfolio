@@ -17,7 +17,7 @@ const Portfolio = () => {
          
 
       <h5>My Recent Works</h5>
-      <h2>My <span>&#123;Portfolio&#125;</span></h2>
+      <h2>Featured <span>&#123;Projects&#125;</span></h2>
       <div className="container portfolio_container">
         {displayData.map(
           ({ id, image, title, desc, demo_url, git_url, stack }) => {

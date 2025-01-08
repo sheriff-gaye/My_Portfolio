@@ -32,23 +32,36 @@
 
 .blog_item {
   background: var(--color-bg-variant);
-  padding: 1rem;
+  padding: 1.1rem;
   border-radius: 1rem;
   border: 1px solid transparent;
   transition: var(--transition);
-}
-
-.blog_item .top{
   display: flex;
-  justify-content: space-between;
-}
-
-.timer{
-  display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content:space-between;
   align-items: center;
-  gap: .9rem;
 }
+
+
+
+.blog_item img{
+  border-radius: 5px;
+}
+
+.blog_item h3{
+  justify-content: flex-start;
+
+}
+
+.blog_item .timer{
+  display: inline-flex;
+  gap:1rem;
+  place-items: center;
+}
+
+
+
+
 .blog_item .stack {
   color: white;
 }

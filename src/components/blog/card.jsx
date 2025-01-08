@@ -18,20 +18,15 @@ export const BlogCard = ({ blogs }) => {
           onClick={() => handleCardClick(blog.id)}
           style={{ cursor: "pointer" }}
         >
+          <div>
+            <img src={blog.image} alt="image"  height={120} width={120} />
+          </div>
           <h3>{blog.title}</h3>
-
-          <div className="top">
-            <Link
-              to={`/blog/${blog.id}`}
-              className="blog_link"
-              onClick={(e) => e.stopPropagation()}
-            >
-              Read More
-            </Link>
+          
             <p className="timer">
               <TimerReset /> {blog.dateCreated}
             </p>
-          </div>
+         
         </article>
       ))}
     </div>
