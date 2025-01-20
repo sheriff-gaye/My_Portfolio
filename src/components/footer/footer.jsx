@@ -65,10 +65,10 @@ const Footer = () => {
           <BsYoutube />
         </a>
       
-
+{/* 
         <a href="https://www.buymeacoffee.com/sgaye" target="_blank" rel="noreferrer">
         <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style={{height: "40px", width: "130px"}} />
-        </a>
+        </a> */}
 
        
       </div>

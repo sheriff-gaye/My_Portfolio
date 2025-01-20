@@ -38,8 +38,7 @@ const Contact = () => {
           <article className="contact_option">
             <BsWhatsapp className="contact_option-icon" />
             <h4>Whatsapp</h4>
-            <h5>sheriffgaye5@gmail.com</h5>
-
+    
             <a
               href="https://api.whatsapp.com/send?text=YourShareTextHere&phone=+233506264676"
               target="_blank" rel="noreferrer"

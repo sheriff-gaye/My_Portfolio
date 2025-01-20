@@ -16,7 +16,7 @@ const Banner = () => {
         variants={titleVariants}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
       >
-         Crafting Solutions, One <span>&#123;Code&#125;</span> at a Time
+         Crafting Solutions,One <span>&#123;Code&#125;</span> at a Time
       </motion.h1>
     </div>
   );

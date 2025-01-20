@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <p>
-            I'm a passionate developer who thrives on solving real world
+            I am a passionate developer who thrives on solving real world
             problems through creative and efficient solutions. I enjoy
             collaborating with diverse teams, constantly learning, and staying
             updated on the latest technologies. My goal is to build user focused
